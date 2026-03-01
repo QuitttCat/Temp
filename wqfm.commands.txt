@@ -3,3 +3,6 @@ ant clean && ant jar && java -Xmx8g -cp "dist/wQFM.jar:lib/*" wqfm.main.Main -i 
 
 # Algorithm 2 (Whole2)
 ant clean && ant jar && java -Xmx8g -cp "dist/wQFM.jar:lib/*" wqfm.main.Main -i "input_files/gtree_11tax_sim_5gR1" -im gene_trees -o /tmp/wqfm_out_$$.tre -algo 2
+
+
+ant clean && ant jar && java -Xmx8g -cp "dist/wQFM.jar:lib/*" wqfm.main.Main -i "input_files/01.true.wqrts" -im gene_trees -o /tmp/wqfm_out_$$.tre -algo 2
